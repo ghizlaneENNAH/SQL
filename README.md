@@ -1,36 +1,34 @@
-# 📊 Employee Demographics SQL Project  
+📊 Employee Demographics SQL Learning Project
+📖 About This Project
+This project contains SQL scripts for learning and practicing various SQL concepts. The files include scripts for creating databases, querying data, filtering, joins, window functions, and advanced SQL techniques.
 
-## 📖 About This Project  
-This project contains SQL files and datasets for learning and practicing SQL queries. The files cover different aspects of database management, including creating tables, inserting data, and performing various queries.
+📂 Project Files
+🏗 Database Creation & Management
+Beginner - Parks_and_Rec_Create_db.sql – Script to create a database and set up tables.
+Temporary Tables in SQL.sql – Demonstrates how to use temporary tables for data storage.
+🔍 Querying Data & Filtering
+SQL Queries for Employee Demographics Analysis.sql – Contains queries to analyze employee demographic data.
+SQL Queries for Filtering and Matching Data_Where_Like_logical_operators.sql – Shows how to filter records using WHERE, LIKE, and logical operators.
+🔄 SQL Joins & Data Combination
+sql_joins_examples.sql – Demonstrates different types of SQL joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN).
+sql_union_examples.sql – Shows how to use UNION and UNION ALL to combine query results.
+📊 Data Aggregation & Sorting
+sql_group_and_order_queries.sql – Covers GROUP BY, ORDER BY, and aggregate functions like SUM(), AVG(), COUNT().
+sql_having_vs_where.sql – Explains the difference between HAVING and WHERE for filtering grouped data.
+sql_limit_and_aliasing.sql – Shows how to limit results and use column aliases for readability.
+🏛 Advanced SQL Concepts
+SQL Window Functions.sql – Covers RANK(), DENSE_RANK(), ROW_NUMBER(), and other window functions.
+SQL Case Statements for Conditional Data Transformation.sql – Demonstrates how to use CASE statements for conditional logic in queries.
+Using Common Table Expressions (CTEs) for Simplified Query Management.sql – Explains the use of WITH for creating reusable CTEs.
+⚙️ Stored Procedures, Triggers & Events
+stored_procedures.sql – Shows how to create and use stored procedures for retrieving employee salaries.
+Triggers & Events in SQL.sql – Demonstrates how to automate actions using SQL triggers and scheduled events.
+🔡 String & Text Manipulation
+sql_string_functions_examples.sql – Covers string manipulation functions (CONCAT(), SUBSTRING(), REPLACE(), etc.).
 
----
 
-## 📂 Project Files  
-
-### 1️⃣ **`database_schema.sql`**  
-- Contains the SQL script to create the database and its tables.  
-- Defines the structure, constraints, and relationships between tables.  
-
-### 2️⃣ **`insert_data.sql`**  
-- Includes SQL statements to populate tables with sample employee data.  
-- Useful for testing queries on realistic datasets.  
-
-### 3️⃣ **`queries.sql`**  
-- Contains a collection of SQL queries to retrieve insights from the employee database.  
-- Includes `SELECT`, `JOIN`, `GROUP BY`, `ORDER BY`, and aggregate functions.  
-
-### 4️⃣ **`advanced_queries.sql`**  
-- Includes complex queries like subqueries, CTEs, and window functions.  
-- Helps in mastering advanced SQL techniques.  
-
-### 5️⃣ **`employee_demographics.csv`**  
-- A CSV file containing sample employee demographic data.  
-- Used to import data into the database for analysis.  
-
----
-
-📌 Learning Goals
-✔️ Understand database schema design.
-✔️ Learn SQL queries for data retrieval.
-✔️ Practice complex SQL operations.
-
+🎯 Learning Goals
+✔️ Understand database creation & management
+✔️ Learn SQL queries for data analysis
+✔️ Practice filtering, joins, and aggregation
+✔️ Explore advanced SQL techniques (CTEs, window functions, triggers)
